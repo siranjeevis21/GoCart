@@ -84,7 +84,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': os.getenv('DATABASE_NAME', 'ecommerce'),
         'USER': os.getenv('DATABASE_USER', 'root'),
-        'PASSWORD': os.getenv('DATABASE_PASSWORD', ''),
+        'PASSWORD': os.getenv('DATABASE_PASSWORD', '13579'),
         'HOST': os.getenv('DATABASE_HOST', 'localhost'),
         'PORT': os.getenv('DATABASE_PORT', '3306'),
     }
